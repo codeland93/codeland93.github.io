@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wonder Messenger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Wonder Messenger</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><button id="homeBtn" onclick="navigateTo('home')">Home 🧙‍♂️</button></li>
+      <li><button id="messagesBtn" onclick="navigateTo('messages')">Messages 🔮</button></li>
+      <li><button id="friendsBtn" onclick="navigateTo('friends')">Friends ☁️</button></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <!-- Content dynamically loaded here -->
+  </div>
+
+  <div id="wizardEmojiContainer">
+    <div id="wizardEmoji">🧙‍♂️</div>
+    <div id="lightningBolt">⚡</div>
+  </div>
+
+  <footer>
+    <p>The Ninth Wonder of Social Media</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
